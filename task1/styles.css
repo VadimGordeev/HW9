@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Raleway';
+    src:local('Raleway'), local('Raleway'),
+    url('./fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+    url('./fonts/Raleway/Raleway-Regular.woff') format('woff'),
+    url('./fonts/Raleway/Raleway-Regular.ttf') format('ttf'),
+    url('./fonts/Raleway/Raleway-Regular.eot') format('eot');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:local('Open Sans'), local('Open Sans'),
+    url('./fonts/Open Sans/Open\ Sans.woff2') format('woff2'),
+    url('./fonts/Open Sans/Open\ Sans.woff') format('woff'),
+    url('./fonts/Open Sans/Open\ Sans.ttf') format('ttf'),
+    url('./fonts/Open Sans/Open\ Sans.eot') format('eot');
+}
+body {
+    width: 1510px;
+    margin: 0 auto;
+}
+.contact {
+    width: 1170px;
+    margin: 50px auto 65px;
+}
+.contact_title {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_title_h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 50px;
+}
+.contact_title_separator {
+    border: 1px solid #EC7979;
+    width: 170px;
+    height: 0px;
+    margin: 0 auto;
+}
+.contact_h5 {
+    width: 1170px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    margin: 40px auto 89px;
+}
+form {
+    height: 214px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 571px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.contact_form_in {
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+textarea {
+    width: 569px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    resize: none;
+}
+button {
+    width: 370px;
+    height: 58px;
+    margin: 50px auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #EC7979;
+    border: none;
+}

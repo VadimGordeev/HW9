@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Montserrat';
+    src:local('Montserrat'), local('Montserrat'),
+    url('./fonts/montserrat-v25-latin-regular.woff2') format('woff2'),
+    url('./fonts/montserrat-v25-latin-regular.woff') format('woff'),
+    url('./fonts/montserrat-v25-latin-regular.ttf') format('ttf'),
+    url('./fonts/montserrat-v25-latin-regular.eot') format('eot');
+}
+body {
+    margin: 0 auto;
+    width: 1600px;
+}
+section {
+    background-image: url('./media/cover.png');
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    width: 1600px;
+}
+.request {
+    width: 1604px;
+    height: 560px;
+    margin: 0 auto;
+    border: 1px solid white;
+    position: relative;
+}
+.request_back {
+    background-image: url('./media/flow.png');
+    background-repeat: no-repeat;
+    width: 495px;
+    height: 495px;
+    position: absolute;
+    bottom: 45%;
+    left: 3.5%;
+    transform: rotate(2deg);
+}
+.request_form {
+    width: 808px;
+    height: 351px;
+    margin: 120px auto 89px;
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+}
+.request_form_col1 {
+    width: calc(808px - 405px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.request_form_col1_p {
+    width: 324px;
+    height: 54px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #371030;
+    margin: 31px 0 17px;
+}
+.request_form_col1_item {
+    width: 324px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+input {
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    border-bottom: 1px solid #371030;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+color: #371030;}
+input[type=name], input[type=tel] {
+    width: 144px;
+}
+input[type=email], input[type=text] {
+    width: 324px;
+}
+button {
+    width: 324px;
+    height: 55px;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #9A3C48;
+    margin: 2px 0 40px;
+}
+.request_form_col2 {
+    width: 405px;
+    background-image: url('./media/cover2.png');
+    border-radius: 0 15px 15px 0;
+}
